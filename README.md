@@ -2,7 +2,7 @@
   <img src="assets/cnn_explainer_icon_web.png" width="300">
 </h3>
 
-# CNN EXPLAINER
+# CNN Explainer
 
 CNN Explainer is PyTorch based project that aims to make CNN's predictions explainable.
 
