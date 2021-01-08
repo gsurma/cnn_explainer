@@ -10,16 +10,23 @@ CNN Explainer is PyTorch based project that aims to make CNN's predictions expla
 [Notebook](cnn_area_importance_heatmaps.ipynb)
 
 <img src="area_importance_heatmaps/basketball_annotated.png">
-___
+
+---
+
 
 <img src="area_importance_heatmaps/submarine_annotated.png">
-___
+
+---
+
 
 <img src="area_importance_heatmaps/zebra_annotated.png">
-___
+
+---
+
 
 <img src="area_importance_heatmaps/pineapple_annotated.png">
-___
+
+---
 
 
 ## Weights Visualizations
