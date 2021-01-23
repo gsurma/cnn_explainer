@@ -10,6 +10,20 @@ Check the corresponding article:
 <br>
 [CNN Explainer - Interpreting Convolutional Neural Networks (1/N) Generating Area Importance Heatmaps with Occlusions](https://gsurma.medium.com/cnn-explainer-interpreting-convolutional-neural-networks-1-n-e81c62cbb660)
 
+## GradCam Heatmaps
+[Notebook](cnn_gradcam_heatmaps.ipynb)
+
+Submarine
+<br>
+<img src="gradcam_heatmaps/gradcam_overlay_submarine.png">
+
+<br>
+
+Aircraft Carrier
+<br>
+<img src="gradcam_heatmaps/gradcam_overlay_aircraft_carrier.png">
+
+
 
 ## Area Importance Heatmaps with Occlusions
 [Notebook](cnn_area_importance_heatmaps.ipynb)
@@ -33,24 +47,7 @@ Check the corresponding article:
 
 ---
 
-## GradCam Heatmaps
-[Notebook](cnn_gradcam_heatmaps.ipynb)
-
-Submarine
-<br>
-<img src="gradcam_heatmaps/gradcam_overlay_submarine.png">
-
-<br>
-
-Aircraft Carrier
-<br>
-<img src="gradcam_heatmaps/gradcam_overlay_aircraft_carrier.png">
-
-
 ## Weights Visualizations
-WIP
-
-## Activations Maps
 WIP
 
 
