@@ -42,7 +42,7 @@ Submarine
 
 <br>
 
-Aircraft
+Aircraft Carrier
 <br>
 <img src="gradcam_heatmaps/gradcam_overlay_aircraft_carrier.png">
 
