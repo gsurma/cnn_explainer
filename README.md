@@ -28,6 +28,18 @@ CNN Explainer is PyTorch based project that aims to make CNN's predictions expla
 
 ---
 
+## GradCam Heatmaps
+
+Submarine
+<br>
+<img src="gradcam_heatmaps/gradcam_overlay_submarine.png">
+
+<br>
+
+Aircraft
+<br>
+<img src="gradcam_heatmaps/gradcam_overlay_aircraft_carrier.png">
+
 
 ## Weights Visualizations
 WIP
