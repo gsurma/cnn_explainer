@@ -88,14 +88,14 @@ class GradCam:
 
         gradients = self.layer_extractor.get_gradients()[-1].cpu().data.numpy()
         
-        target = activations[-1]
-        target = target.cpu().data.numpy()[0, :]
+        activations = activations[-1]
+        activations = target.cpu().data.numpy()[0, :]
 
-        weights = np.mean(gradients, axis=(2, 3))[0, :]
-        cam = np.zeros(target.shape[1:], dtype=np.float32)
+        gradients = np.mean(gradients, axis=(2, 3))[0, :]
+        cam = np.zeros(activations.shape[1:], dtype=np.float32)
 
-        for i, w in enumerate(weights):
-            cam += w * target[i, :, :]
+        for i, gradient in enumerate(gradients):
+            cam += gradient * activations[i, :, :]
         
         cam = np.maximum(cam, 0)
         cam = cv2.resize(cam, input_image.shape[2:])
