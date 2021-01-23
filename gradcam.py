@@ -70,15 +70,15 @@ class GradCam:
     def forward(self, input_image):
         return self.model(input_image)
 
-    def __call__(self, input_image, target_category=None):
+    def __call__(self, input_image, target_class=None):
 
         activations, output = self.layer_extractor(input_image)
 
-        if target_category == None: #if not explicitly set, setting the top prediction
-            target_category = np.argmax(output.cpu().data.numpy())
+        if target_class == None: #if not explicitly set, setting the top prediction
+            target_class = np.argmax(output.cpu().data.numpy())
 
         one_hot = np.zeros((1, output.size()[-1]), dtype=np.float32)
-        one_hot[0][target_category] = 1
+        one_hot[0][target_class] = 1
         one_hot = torch.from_numpy(one_hot).requires_grad_(True)
         one_hot = torch.sum(one_hot * output)
  
