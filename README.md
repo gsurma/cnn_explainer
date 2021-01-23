@@ -34,6 +34,7 @@ Check the corresponding article:
 ---
 
 ## GradCam Heatmaps
+[Notebook](cnn_gradcam_heatmaps.ipynb)
 
 Submarine
 <br>
