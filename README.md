@@ -6,11 +6,14 @@
 
 CNN Explainer is PyTorch based project that aims to make CNN's predictions explainable.
 
-Check the corresponding article:
+Check the corresponding articles:
 <br>
 [CNN Explainer - Interpreting Convolutional Neural Networks (1/N) Generating Area Importance Heatmaps with Occlusions](https://gsurma.medium.com/cnn-explainer-interpreting-convolutional-neural-networks-1-n-e81c62cbb660)
+<br>
+[CNN Explainer - Interpreting Convolutional Neural Networks (2/N) Visualizing Gradient Weighted Class Activations with GradCAM](https://gsurma.medium.com/cnn-explainer-interpreting-convolutional-neural-networks-2-n-18e40a03eae2)
+<br>
 
-## GradCam Heatmaps
+## GradCAM Heatmaps
 [Notebook](cnn_gradcam_heatmaps.ipynb)
 
 Submarine
