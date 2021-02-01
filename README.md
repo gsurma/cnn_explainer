@@ -15,7 +15,7 @@ Check the corresponding articles:
 [CNN Explainer - Interpreting Convolutional Neural Networks (3/N) Visualizing Boosted Convolutional Features](https://towardsdatascience.com/cnn-explainer-interpreting-convolutional-neural-networks-3-n-de0b348caff)
 <br>
 
-## Features Visualizations
+## Boosted Features Visualizations
 [Notebook](cnn_features_visualizations.ipynb)
 
 <img src="test_images/candle.jpg" width=224>
