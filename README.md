@@ -12,7 +12,7 @@ Check the corresponding articles:
 <br>
 [CNN Explainer - Interpreting Convolutional Neural Networks (2/N) Visualizing Gradient Weighted Class Activations with GradCAM](https://gsurma.medium.com/cnn-explainer-interpreting-convolutional-neural-networks-2-n-18e40a03eae2)
 <br>
-[CNN Explainer - Interpreting Convolutional Neural Networks (3/N) Visualizing Boosted Convolutional Features](https://towardsdatascience.com/cnn-explainer-interpreting-convolutional-neural-networks-3-n-de0b348caff)
+[CNN Explainer - Interpreting Convolutional Neural Networks (3/N) Visualizing Boosted Convolutional Features](https://gsurma.medium.com/cnn-explainer-interpreting-convolutional-neural-networks-3-n-de0b348caff)
 <br>
 
 ## Boosted Features Visualizations
